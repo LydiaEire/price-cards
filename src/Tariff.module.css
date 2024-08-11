@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tariff {
+    background: linear-gradient(135deg, #fce3ec, #ffe5b9);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tariff:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+.highlighted {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+.header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+.price {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #444;
+}
+  
+.priceValue {
+    font-size: 36px;
+    font-weight: bold;
+}
+  
+.speed,
+.unlimited {
+    font-size: 15px;
+    color: #666;
+} 
