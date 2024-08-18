@@ -10,40 +10,46 @@
     text-align: center;
     width: 220px;
     margin: 20px;
+    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.tariff:hover {
+  }
+  
+  .tariff:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-.highlighted {
+  .highlighted {
     background: linear-gradient(135deg, #ff758c, #ff7eb3);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   }
   
-.header {
+  .selected {
+    border: 2px solid #007bff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+  
+  .header {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 12px;
     color: #333;
   }
   
-.price {
+  .price {
     font-size: 22px;
     margin: 10px 0;
     color: #444;
-}
+  }
   
-.priceValue {
+  .priceValue {
     font-size: 36px;
     font-weight: bold;
-}
+  }
   
-.speed,
-.unlimited {
+  .speed {
     font-size: 15px;
     color: #666;
-} 
+  }
+  
